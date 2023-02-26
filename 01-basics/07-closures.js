@@ -19,3 +19,21 @@ function createCounter() {
 
 const counter1 = createCounter();
 const counter2 = createCounter();
+
+// приклад 2
+
+function makeGreeting(name) {
+  const message = `Hello, ${name}!`;
+
+  function greet() {
+    console.log(message);
+  }
+
+  return greet;
+}
+
+const greetJohn = makeGreeting("John");
+const greetJane = makeGreeting("Jane");
+
+greetJohn(); // Output: Hello, John!
+greetJane(); // Output: Hello, Jane!
