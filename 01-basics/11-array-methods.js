@@ -49,3 +49,9 @@ const numbers7 = [1, 2, 3];
 const numbers8 = [4, 5, 6];
 const concatenatedNumbers = numbers7.concat(numbers8);
 console.log(concatenatedNumbers); // [1, 2, 3, 4, 5, 6]
+
+/* 
+indexOf() - Returns the first index at which a given element can be found in the array, or -1 if it is not present. */
+const numbers9 = [1, 2, 3, 4, 5];
+const index = numbers9.indexOf(3);
+console.log(index); // 2
